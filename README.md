@@ -1,45 +1,27 @@
-# My Machine Learning Zoomcamp Journey 🚀
+# ML Zoomcamp Homeworks
 
-Hi! I'm Ugurcan Uzunkaya. This repository serves as a portfolio of my work during the **[Machine Learning Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)**, a comprehensive 4-month course by DataTalks.Club focused on Machine Learning Engineering.
+This repository contains my solutions for the DataTalks.Club Machine Learning Zoomcamp.
 
-Here, I document my learning process, including code solutions for homework assignments, personal notes, and end-to-end projects.
+## Structure
 
-## 📂 What's Inside?
+The repository is organized by homework number:
 
-*   **`homeworks/`**: Contains my solutions for the weekly assignments.
-    *   **HW1 - HW4**: Regression, Classification, and Evaluation Metrics.
-    *   **HW5**: Deep Learning with PyTorch (Hair Type Classification).
-*   **`notes/`**: My personal study notes and key takeaways from the lectures.
-*   **`projects/`**: (Coming Soon) Midterm and Capstone projects where I apply what I've learned to real-world datasets.
+- **[Homework 1](homeworks/hw01/):** Intro to Machine Learning
+- **[Homework 2](homeworks/hw02/):** Machine Learning for Regression
+- **[Homework 3](homeworks/hw03/):** Machine Learning for Classification
+- **[Homework 4](homeworks/hw04/):** Evaluation Metrics for Classification
+- **[Homework 5](homeworks/hw05/):** Deploying Machine Learning Models
+- **[Homework 6](homeworks/hw06/):** Decision Trees and Ensemble Learning
+- **[Homework 8](homeworks/hw08/):** Deep Learning
+- **[Homework 9](homeworks/hw09/):** Serverless Deep Learning
 
-## 🛠️ Technologies & Tools
+## Setup
 
-I am building skills in:
-*   **Python Data Stack**: Pandas, NumPy, Matplotlib, Seaborn
-*   **Machine Learning**: Scikit-Learn, XGBoost
-*   **Deep Learning**: TensorFlow, PyTorch
-*   **Deployment**: Docker, Flask/FastAPI, Kubernetes, AWS
+Each homework directory is self-contained. For homeworks requiring Python scripts (like HW9), I use `uv` for dependency management.
 
-## 📈 Progress
-
-I am actively working through the syllabus:
-- [x] Module 1: Introduction to Machine Learning
-- [x] Module 2: Regression
-- [x] Module 3: Classification
-- [x] Module 4: Evaluation Metrics
-- [x] Module 5: Deployment (and Deep Learning basics)
-- [ ] Module 6: Decision Trees & Ensemble Learning
-- [ ] Midterm Project
-- [ ] Module 8: Neural Networks & Deep Learning
-- [ ] Module 9: Serverless Deep Learning
-- [ ] Module 10: Kubernetes & TensorFlow Serving
-- [ ] Capstone Projects
-
-## 🔗 Credits
-
-This repository is based on the amazing free course provided by **DataTalks.Club**.
-*   **Course Repository**: [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)
-*   **Instructors**: Alexey Grigorev and the DataTalks.Club team.
-
----
-*Thanks for visiting! Feel free to star the repo if you find it helpful.*
+```bash
+# Example for HW9
+cd homeworks/hw09
+uv sync
+uv run src/inspection.py
+```
