@@ -37,7 +37,9 @@ ENV/
 .ipynb_checkpoints
 
 # Large Data Files
-homeworks/hw09/data/
+# Large Data Files
+homeworks/*/data/
+data/
 *.onnx
 *.data
 *.zip
