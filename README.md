@@ -14,6 +14,7 @@ The repository is organized by homework number:
 - **[Homework 6](homeworks/hw06/):** Decision Trees and Ensemble Learning
 - **[Homework 8](homeworks/hw08/):** Deep Learning
 - **[Homework 9](homeworks/hw09/):** Serverless Deep Learning
+- **[Homework 10](homeworks/hw10/):** Kubernetes Fundamentals
 
 ## Setup
 

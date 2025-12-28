@@ -14,7 +14,7 @@ Clone the course repo if you haven't:
 git clone https://github.com/DataTalksClub/machine-learning-zoomcamp.git
 ```
 
-Go to the `course-zoomcamp/cohorts/2024/05-deployment/homework` folder and 
+Go to the `course-zoomcamp/cohorts/2025/05-deployment/homework` folder and 
 execute the following:
 
 
@@ -260,3 +260,4 @@ What was the maximum amount of the replicas during this test?
 
 > Note: It may take a few minutes to stabilize the number of replicas. Since the amount of load is not controlled 
 > in any way it may happen that the final number of replicas will differ from initial.
+
