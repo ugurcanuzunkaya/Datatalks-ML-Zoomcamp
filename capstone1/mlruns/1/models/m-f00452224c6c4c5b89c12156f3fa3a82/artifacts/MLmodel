@@ -1,0 +1,22 @@
+artifact_path: /Users/ugurcanuzunkaya/Documents/Antigravity/Datatalks-ML-Zoomcamp/capstone1/mlruns/1/models/m-f00452224c6c4c5b89c12156f3fa3a82/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-f00452224c6c4c5b89c12156f3fa3a82
+model_size_bytes: 371481
+model_uuid: m-f00452224c6c4c5b89c12156f3fa3a82
+prompts: null
+run_id: d2818ff684544b07a9ce27067eadbdc3
+utc_time_created: '2025-12-30 03:07:17.007218'
