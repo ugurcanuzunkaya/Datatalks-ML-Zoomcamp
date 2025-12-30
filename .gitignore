@@ -20,6 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.ruff_cache/
 
 # Environments
 .env
@@ -37,9 +38,16 @@ ENV/
 .ipynb_checkpoints
 
 # Large Data Files
-# Large Data Files
 homeworks/*/data/
 data/
 *.onnx
 *.data
 *.zip
+
+# ML & Data Science
+mlflow.db
+mlruns/
+.coverage
+htmlcov/
+site/
+.pytest_cache/
